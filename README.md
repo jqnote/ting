@@ -23,4 +23,7 @@ Usage:	 ting -p=12345
 -p=80: server port, default 80
 ```
 
+golang命令行彩色文字代码来源：
+[[github.com/xcltapestry/xclpkg/clcolor]]
+
 >绝对不要用在生产环境，真心没测试过，玩具代码
