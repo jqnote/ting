@@ -1,5 +1,5 @@
-# ting
->Ting, tiny static file server for quick demo preview.
+# Ting-static-server
+>Ting is a tiny static file server for quick demo preview.
 
 ```
 Name   : Ting Static Server
