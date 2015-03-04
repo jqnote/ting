@@ -8,7 +8,7 @@ import (
 	"os"
 	"os/exec"
 	"path/filepath"
-	"ting/color"
+	"./color"
 )
 
 var version string = "1.0.0"
