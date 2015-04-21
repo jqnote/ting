@@ -8,7 +8,8 @@ import (
 	"os"
 	"os/exec"
 	"path/filepath"
-	"ting/color"
+
+	"github.com/wefound/ting/color"
 )
 
 var version string = "1.0.0"
@@ -55,7 +56,7 @@ func main() {
 	path := "./"
 
 	fmt.Println("Server Starting...")
-	fmt.Println(color.Yellow(fmt.Sprintf("http://127.0.0.1:%d", port)))
+	fmt.Println(color.Yellow(fmt.Sprintf("http://0.0.0.0:%d", port)))
 	fmt.Println(color.Cyan(fmt.Sprintf("Path\t%s\nPort\t%d\n", current_path, port)))
 
 	http.Handle("/", http.FileServer(http.Dir(path)))
